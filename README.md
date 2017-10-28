@@ -67,7 +67,7 @@ var hello = 'world';
 let hello = 'world';
 ```
 
-### Avoid using alert boxes for debuggin
+### Avoid using alert boxes for debugging
 It baffles me that people use `alert()` for debugging thier code,
 but it happens frequently enough that I have to put this here. If you
 need to debug your code, use `console.log()`

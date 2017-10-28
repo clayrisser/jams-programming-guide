@@ -68,9 +68,9 @@ let hello = 'world';
 ```
 
 ### Avoid session storage on single page web applications
-_Single page web applications never get reloaded during a session,
-so there's no reason to use sessionStorage. If you need a global state,
-use an in memory state machine like Redux._
+Single page web applications never get reloaded during a session,
+so there's no reason to use sessionStorage. If you need global state,
+use an in memory state machine like Redux.
 
 ## React
 
@@ -87,16 +87,16 @@ use an in memory state machine like Redux._
 * `someHelperFunction() {}` _Helper functions_
 
 ### Avoid using the document object
-_You should avoid accessing the real dom_
+You should avoid accessing the real dom
 #### INCORRECT :-1:
 ```js
 const myElement = document.getElementById('some-element');
 ```
-_If you must access the real dom, use refs_
+If you must access the real dom, use refs
 #### CORRECT :+1:
 ```js
 const myElement = this.refs.someElement;
 ```
 
 ### Avoid using the jQuery library
-_Since jQuery is a library for manipulating the real dom, it should be avoided_
+Since jQuery is a library for manipulating the real dom, it should be avoided

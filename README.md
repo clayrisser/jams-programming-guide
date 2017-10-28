@@ -57,7 +57,7 @@ console.log('yay, I have a semicolon');
 ```
 
 ### Use ES6 variable definitions
-_Only follow this if ES6 is supported
+_Only follow this if ES6 is supported_
 #### INCORRECT :-1:
 ```js
 var hello = 'world';

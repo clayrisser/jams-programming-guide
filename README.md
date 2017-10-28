@@ -56,6 +56,17 @@ console.log('oops, I forgot a semicolon')
 console.log('yay, I have a semicolon');
 ```
 
+### Use ES6 variable definitions
+_Only follow this if ES6 is supported
+#### INCORRECT :-1:
+```js
+var hello = 'world';
+```
+#### CORRECT :+1:
+```js
+let hello = 'world';
+```
+
 ## React
 
 ### Order lifecycle methods in the following order

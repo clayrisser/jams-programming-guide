@@ -2,7 +2,7 @@
 An opinionated programming guide for consistent and collaborative programming
 
 ### The rule above all rules is consistency
-For example, if the codebase is not ending lines with semicolons, then don't end lines with semicolons
+For example, if the codebase does not end lines with semicolons, then don't end lines with semicolons
 
 ## Basic Constructs
 

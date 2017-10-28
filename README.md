@@ -1,7 +1,7 @@
 # Jam's Programming Guide
 An opinionated programming guide for consistent and collaborative programming
 
-### The rule above all rules is __consistency__
+### The rule above all rules is consistency
 For example, if the codebase is not ending lines with semicolons, then don't end lines with semicolons
 
 ## Basic Constructs

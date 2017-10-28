@@ -3,17 +3,15 @@ An opinionated programming guide for consistent and collaborative programming
 
 ## Basic Constructs
 
-### Functions
-
-#### Use verbs for function names
-##### INCORRECT :-1:
+### Use verbs for function names
+#### INCORRECT :-1:
 ```js
 function paymentForm() {
   // renders payment form
 }
 ```
 
-##### CORRECT :+1:
+#### CORRECT :+1:
 ```js
 function renderPaymentForm() {
   // renders payment form
@@ -22,16 +20,26 @@ function renderPaymentForm() {
 
 ## React
 
-### Lifecycle Methods
-
-#### Order lifecycle methods in the following order
+### Order lifecycle methods in the following order
 
 * `constructor() {}`
 * `componentWillMount() {}`
 * `componentDidMount() {}`
 * `componentWillUpdate() {}`
 * `componentDidUpdate() {}`
-* `renderSomeJSX() {}` // Custom render functions
+* `renderSomeJSX() {}` _Custom render functions_
 * `render() {}`
-* `handleSomeEvent() {}` // Event handlers
-* `someHelperFunction() {}` // Helper functions
+* `handleSomeEvent() {}` _Event handlers_
+* `someHelperFunction() {}` _Helper functions_
+
+### Avoid using the document object
+_You should avoid accessing the real dom_
+_If you need to access the real dom, use refs_
+```js
+const myElement = document.getElementById('some-element');
+```
+
+#### CORRECT :+1:
+```js
+const myElement = this.refs.someElement;
+```

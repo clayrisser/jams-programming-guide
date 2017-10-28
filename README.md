@@ -70,10 +70,10 @@ let hello = 'world';
 ### Avoid using alert boxes for debugging
 It baffles me that people use `alert()` for debugging thier code,
 but it happens frequently enough that I have to put this here. If you
-need to debug your code, use `console.log()`
+need to debug your code, use `console.log()`.
 #### INCORRECT :-1:
 ```js
-alert('this is a super annoying message')
+alert('this is a super annoying message');
 ```
 #### CORRECT :+1:
 ```js

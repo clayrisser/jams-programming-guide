@@ -46,6 +46,16 @@ if ('1' !== 1) {
 }
 ```
 
+### End lines with semicolons
+#### INCORRECT :-1:
+```js
+console.log('oops, I forgot a semicolon')
+```
+#### CORRECT :+1:
+```js
+console.log('yay, I have a semicolon');
+```
+
 ## React
 
 ### Order lifecycle methods in the following order

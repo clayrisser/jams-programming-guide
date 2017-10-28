@@ -1,6 +1,9 @@
 # Jam's Programming Guide
 An opinionated programming guide for consistent and collaborative programming
 
+### The rule above all rules is __consistency__
+For example, if the codebase is not ending lines with semicolons, then don't end lines with semicolons
+
 ## Basic Constructs
 
 ### Use verbs for function names
@@ -15,6 +18,18 @@ function paymentForm() {
 function renderPaymentForm() {
   // renders payment form
 }
+```
+
+## JavaScript
+
+### Use single quotes for strings
+#### INCORRECT :-1:
+```js
+const myString = "I am a string";
+```
+#### CORRECT :+1:
+```js
+const myString = 'I am a string';
 ```
 
 ## React

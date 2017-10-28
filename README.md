@@ -6,14 +6,14 @@ An opinionated programming guide for consistent and collaborative programming
 ### Functions
 
 #### Use verbs for function names
-:-1: INCORRECT
+##### INCORRECT :-1:
 ```js
 function paymentForm() {
   // renders payment form
 }
 ```
 
-:-1: CORRECT
+##### CORRECT :+1:
 ```js
 function renderPaymentForm() {
   // renders payment form

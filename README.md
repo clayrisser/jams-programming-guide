@@ -67,6 +67,11 @@ var hello = 'world';
 let hello = 'world';
 ```
 
+### Avoid session storage on single page web applications
+_Single page web applications never get reloaded during a session,
+so there's no reason to use sessionStorage. If you need a global state,
+use an in memory state machine like Redux._
+
 ## React
 
 ### Order lifecycle methods in the following order

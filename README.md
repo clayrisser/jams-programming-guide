@@ -10,7 +10,6 @@ function paymentForm() {
   // renders payment form
 }
 ```
-
 #### CORRECT :+1:
 ```js
 function renderPaymentForm() {
@@ -34,11 +33,11 @@ function renderPaymentForm() {
 
 ### Avoid using the document object
 _You should avoid accessing the real dom_
-_If you need to access the real dom, use refs_
+#### INCORRECT :-1:
 ```js
 const myElement = document.getElementById('some-element');
 ```
-
+_If you must access the real dom, use refs_
 #### CORRECT :+1:
 ```js
 const myElement = this.refs.someElement;

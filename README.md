@@ -67,6 +67,19 @@ var hello = 'world';
 let hello = 'world';
 ```
 
+### Avoid using alert boxes for debuggin
+It baffles me that people use `alert()` for debugging thier code,
+but it happens frequently enough that I have to put this here. If you
+need to debug your code, use `console.log()`
+#### INCORRECT :-1:
+```js
+alert('this is a super annoying message')
+```
+#### CORRECT :+1:
+```js
+console.log('this is much better');
+```
+
 ### Avoid session storage on single page web applications
 Single page web applications never get reloaded during a session,
 so there's no reason to use sessionStorage. If you need global state,

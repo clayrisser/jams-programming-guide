@@ -58,5 +58,5 @@ _If you must access the real dom, use refs_
 const myElement = this.refs.someElement;
 ```
 
-### Avoid using the jquery library
+### Avoid using the jQuery library
 _Since jQuery is a library for manipulating the real dom, it should be avoided_

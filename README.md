@@ -19,3 +19,19 @@ function renderPaymentForm() {
   // renders payment form
 }
 ```
+
+## React
+
+### Lifecycle Methods
+
+#### Order lifecycle methods in the following order
+
+* `constructor() {}`
+* `componentWillMount() {}`
+* `componentDidMount() {}`
+* `componentWillUpdate() {}`
+* `componentDidUpdate() {}`
+* `renderSomeJSX() {}` // Custom render functions
+* `render() {}`
+* `handleSomeEvent() {}` // Event handlers
+* `someHelperFunction() {}` // Helper functions

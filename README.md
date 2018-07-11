@@ -89,15 +89,20 @@ use an in memory state machine like Redux.
 
 ### Order lifecycle methods in the following order
 
+* `static` methods
 * `constructor() {}`
+* `getChildContext() {}`
 * `componentWillMount() {}`
 * `componentDidMount() {}`
+* `componentWillReceiveProps() {}`
+* `shouldComponentUpdate() {}`
 * `componentWillUpdate() {}`
 * `componentDidUpdate() {}`
-* `renderSomeJSX() {}` _Custom render functions_
-* `render() {}`
+* `componentWillUnmount() {}`
 * `handleSomeEvent() {}` _Event handlers_
 * `someHelperFunction() {}` _Helper functions_
+* `renderSomeJSX() {}` _Custom render functions_
+* `render() {}`
 
 ### Avoid using the document object
 You should avoid accessing the real dom

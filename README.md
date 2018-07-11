@@ -89,7 +89,7 @@ use an in memory state machine like Redux.
 
 ### Order lifecycle methods in the following order
 
-* `static`
+* `static someStaticProp = {}` _Custom static properties_
 * `constructor() {}`
 * `getChildContext() {}`
 * `componentWillMount() {}`

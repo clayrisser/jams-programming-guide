@@ -69,14 +69,14 @@ const myString = 'I am a string';
 ### Use identity operator instead of equality operator
 #### INCORRECT :-1:
 ```js
-if ('1' != 1) {
-  // this is false
+if ('1' == 1) {
+  // this is true
 }
 ```
 #### CORRECT :+1:
 ```js
-if ('1' !== 1) {
-  // this is true
+if ('1' === 1) {
+  // this is false
 }
 ```
 

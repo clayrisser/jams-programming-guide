@@ -20,6 +20,40 @@ function renderPaymentForm() {
 }
 ```
 
+### Use nouns for variable and constant names
+#### INCORRECT :-1:
+```js
+let run = true;
+```
+#### CORRECT :+1:
+```js
+let runner = true;
+```
+
+### Start boolean varaibles with `is`
+#### INCORRECT :-1:
+```js
+let fast = true;
+```
+#### CORRECT :+1:
+```js
+let isFast = true;
+```
+
+### Ignore reduntant names
+#### INCORRECT :-1:
+```js
+class Dog {
+  dogBark() { console.log('woof'); }
+}
+```
+#### CORRECT :+1:
+```js
+class Dog { 
+  bark() { console.log('woof'); }
+}
+```
+
 ## JavaScript
 
 ### Use single quotes for strings
@@ -65,6 +99,29 @@ var hello = 'world';
 #### CORRECT :+1:
 ```js
 let hello = 'world';
+```
+
+### Use ES6 getters instead of get functions
+_Only follow this if ES6 is supported_
+#### INCORRECT :-1:
+```js
+class Dog {
+  firstName = 'fido';
+  lastName = 'brown';
+  getName() {
+    return `${firstName} ${lastName}`;
+  }
+}
+```
+#### CORRECT :+1:
+```js
+class Dog {
+  firstName = 'fido';
+  lastName = 'brown';
+  get name() {
+    return `${firstName} ${lastName}`;
+  }
+}
 ```
 
 ### Avoid using alert boxes for debugging

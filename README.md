@@ -1,6 +1,8 @@
 # Jam's Programming Guide
 An opinionated programming guide for consistent and collaborative programming
 
+![](assets/jams-programming-guide.png)
+
 ### The rule above all rules is consistency
 For example, if the codebase does not end lines with semicolons, then don't end lines with semicolons
 
